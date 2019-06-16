@@ -1,0 +1,160 @@
+﻿@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v8-latin-500.eot');
+    src: local('Rubik Medium'), local('Rubik-Medium'), url('../fonts/rubik-v8-latin-500.eot?#iefix') format('embedded-opentype'), url('../fonts/rubik-v8-latin-500.woff2') format('woff2'), url('../fonts/rubik-v8-latin-500.woff') format('woff'), url('../fonts/rubik-v8-latin-500.ttf') format('truetype'), url('../fonts/rubik-v8-latin-500.svg#Rubik') format('svg');
+}
+
+body {
+    font-family: Rubik;
+    color:#3C3B6E;
+}
+
+.bgcolor {
+    background-color: #3C3B6E;
+}
+
+.circleactive {
+    width: 30px;
+    height: 30px;
+    border-radius: 250px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background:  #3C3B6E;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.circleinactive {
+    width: 30px;
+    height: 30px;
+    border-radius: 250px;
+    font-size: 20px;
+    color: #717576;
+    line-height: 30px;
+    text-align: center;
+    background: #eff3f6;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+#footerdiv {
+    height: 75px;
+    width: 100%;
+    background: #222222;
+    align-content: center;
+}
+
+#lblfooter {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+#mainnavbar{
+	background-color:#3C3B6E;
+}
+
+#imglogo{
+	margin-left: 20px;    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 14px;    
+    color: #f0f0f5;
+}
+
+textarea,
+textarea::-webkit-input-placeholder {
+    font-size: 14px;    
+    color: #f0f0f5;
+}
+
+#btnSubmit{
+    background-color:#3C3B6E;
+    color:#ffffff;
+    border-radius: 35px;	
+	height:40px;
+	padding-left:20px;
+    padding-right:20px;
+    border:0px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#btnReset{
+    background-color:#CB3F52;
+    color:#ffffff; 
+    border-radius: 35px;	
+	height:40px;
+	padding-left:20px;
+    padding-right:20px;
+    border:0px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;   
+}
+
+
+#addpackage{
+    background-color:#3C3B6E;
+    color:#ffffff;
+    border-radius: 35px;	
+	height:40px;
+	padding-left:20px;
+    padding-right:20px;
+    border:0px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#removepackage{
+    margin-left: 10px;
+    background-color:#CB3F52;
+    color:#ffffff; 
+    border-radius: 35px;	
+	height:40px;
+	padding-left:20px;
+    padding-right:20px;
+    border:0px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;   
+}
+
+
+@media all and (min-width: 601px) {
+    #imglogo{
+        display:block;
+    }
+}
+
+
+@media all and (max-width: 600px) {
+     #imglogo{
+        display:none;
+    }
+}
